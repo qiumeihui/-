@@ -1,0 +1,26 @@
+{
+  "name": "xhhsreact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "antd": "^3.1.6",
+    "axios": "^0.17.1",
+    "n-zepto": "^1.2.0",
+    "rc-tween-one": "^1.7.3",
+    "react": "^15.6.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-router": "^3.0.1"
+  }
+}

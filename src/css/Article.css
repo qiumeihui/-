@@ -1,0 +1,50 @@
+/*页面开始时的动画*/
+.exampleheader-enter {
+  opacity: 0.01;
+}
+
+.exampleheader-enter.exampleheader-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.exampleheader-leave {
+  opacity: 1;
+}
+
+.exampleheader-leave.exampleheader-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+.exampleheader-appear {
+  opacity: 0.01;
+}
+
+.exampleheader-appear.exampleheader-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+/*背景*/
+
+.artbox{
+	overflow: hidden;
+}
+.pagesarticle{
+	width: 100%;
+	height: 602px;
+	background: white;
+	border: none!important;
+	padding-top: 60px;
+}
+.header{
+	z-index: 111;
+}
+/*不起作用的省略号溢出.every{
+				width: 1283px;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+}
+*/

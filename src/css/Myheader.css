@@ -1,0 +1,60 @@
+.header {
+	width: 100%;
+	height: 60px;
+	background: black;
+	overflow: hidden;
+	position: fixed;
+}
+/*头像*/
+.logo{
+	width: 45px;
+	height: 45px;	
+	border-radius: 30px;
+	display: block;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.logo:hover{
+	transform: scale(1.1);
+}
+.header p{
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	position: absolute;
+	top: 0;
+	left: 120px;
+	font-size: 14px;
+	color: whitesmoke;
+}
+
+
+.nav {
+	width: 500px;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	right: 100px;
+	top: 0;
+}
+
+.nav li {
+	line-height: 60px;
+	font-size: 16px;
+	height: 60px;
+	width: 25%;
+	text-align: center;
+}
+.nav li a:hover, .nav li:hover a {
+	font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.nav li:hover {
+  transition-duration:0.5s;
+  background-color: rgb(50, 80, 57);
+  border-bottom: 1.5px solid lemonchiffon;
+  transform: scale(1.05);
+}
+

@@ -1,0 +1,82 @@
+/*页面加载延迟效果*/
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.one{
+	padding-top: 120px!important;
+	width:80%;
+	margin:0px auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.imgbox{
+	padding-top: 60px;
+	width:80%;
+	margin:0px auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.three{
+	/*margin-bottom: 80px;*/
+}
+
+
+.item:hover{
+	transform: scale(1.05);
+}
+.one>.item:nth-child(1){
+	background: url(../img/sea.jpg) no-repeat center center;
+}
+.one>.item:nth-child(2){
+	background: url(../img/2.jpg) no-repeat center center;
+}
+.one>.item:nth-child(3){
+	background: url(../img/03.jpg) no-repeat center center;
+}
+
+
+.two>.item:nth-child(1){
+	background: url(../img/04.jpg) no-repeat center center;
+}
+.two>.item:nth-child(2){
+	background: url(../img/05.jpg) no-repeat center center;
+}
+.two>.item:nth-child(3){
+	background: url(../img/06.jpg) no-repeat center center;
+}
+
+.three>.item:nth-child(1){
+	background: url(../img/07.jpg) no-repeat center center;
+}
+.three>.item:nth-child(2){
+	background: url(../img/08.jpg) no-repeat center center;
+}
+.three>.item:nth-child(3){
+	background: url(../img/09.jpg) no-repeat center center;
+}

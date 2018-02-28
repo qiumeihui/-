@@ -1,0 +1,133 @@
+body{
+	height: 625px!important;
+}
+.box{
+	width: 100%;
+	height: 625px;
+	overflow: hidden;
+	background: black;
+	overflow: hidden;
+}
+/*头像*/
+.mylogostyle{
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 35px;
+	margin: 130px auto;
+	
+}
+.start{
+	display: block;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: 0px;
+}
+.start a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	color: white;
+}
+.start:hover{
+	background: white;
+	opacity: 1;
+	z-index: 666;
+}
+.start:hover a{
+	color: black;
+}
+.box p:nth-of-type(1){
+	width: 30%;
+	height: 40px;
+	color: whitesmoke;
+	font-size: 14px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -26px;
+	margin-top: 80px;
+}
+.box p:nth-of-type(2){
+	width: 30%;
+	height: 40px;
+	color: whitesmoke;
+	font-size: 14px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 80px;
+}
+
+/*进入*/
+.examplebtn-enter {
+  opacity: 0.01;
+}
+
+.examplebtn-enter.examplebtn-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.examplebtn-leave {
+  opacity: 1;
+}
+
+.examplebtn-leave.examplebtn-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+.examplebtn-appear {
+  opacity: 0.01;
+}
+
+.examplebtn-appear.examplebtn-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+
+/*文字效果*/
+.exampletext-enter {
+  opacity: 0.01;
+}
+
+.exampletext-enter.exampletext-enter-active {
+  opacity: 1;
+  transition: opacity 3000ms linear;
+}
+
+.exampletext-leave {
+  opacity: 1;
+}
+
+.exampletext-leave.exampletext-leave-active {
+  opacity: 0.01;
+  transition: opacity 3500ms linear;
+}
+
+.exampletext-appear {
+  opacity: 0.01;
+}
+
+.exampletext-appear.exampletext-appear-active {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.Sendmsg{
+	width: 70%;
+	height: 300px;
+	margin: 0 auto;
+}
+.Sendmsg input{
+	width: 50%;
+	height: 18%;
+}
